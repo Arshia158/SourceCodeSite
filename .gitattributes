@@ -7,3 +7,16 @@
 *.png binary
 *.ttf binary
 *.jar binary
+
+# GitHub language statistics
+
+android/** linguist-generated=true
+ios/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+windows/** linguist-generated=true
+web/** linguist-generated=true
+
+lib/** linguist-generated=false
+test/** linguist-generated=false
+pubspec.yaml linguist-generated=false

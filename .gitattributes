@@ -8,15 +8,19 @@
 *.ttf binary
 *.jar binary
 
-# GitHub language statistics
-
-android/** linguist-generated=true
+# H
 ios/** linguist-generated=true
 linux/** linguist-generated=true
 macos/** linguist-generated=true
 windows/** linguist-generated=true
 web/** linguist-generated=true
 
+# Hide most Android generated files, but keep Kotlin visible
+android/** linguist-generated=true
+android/**/*.kt linguist-generated=false
+android/**/*.kts linguist-generated=false
+
+# Keep main Flutter source visible
 lib/** linguist-generated=false
 test/** linguist-generated=false
 pubspec.yaml linguist-generated=false

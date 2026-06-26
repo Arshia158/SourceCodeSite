@@ -1,0 +1,13 @@
+/.gradle
+/captures/
+/local.properties
+.cxx/
+
+# Build outputs
+/app/build
+/build
+
+# Never commit release signing files.
+key.properties
+**/*.keystore
+**/*.jks
